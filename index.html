@@ -2,180 +2,130 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - Clash of Clans Cards</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-<link rel='stylesheet' href='https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css'>
-<link rel='stylesheet' href='https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css'><link rel="stylesheet" href="./style.css">
+  <title>GO UP Games</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.min.css'>
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat&amp;display=swap"rel="stylesheet'><link rel="stylesheet" href="./style.css">
 
 </head>
 <body>
+
+		<header class="cabecalho">
+			<a href="1009182.html"><img id="flecha"src="img/goupgames-white.png"></a>
+		</header>
+
 <!-- partial:index.partial.html -->
-<div class="slide-container">
-  
-  <div class="wrapper">
-    <div class="clash-card barbarian">
-      <div class="clash-card__image clash-card__image--barbarian">
-        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/barbarian.png" alt="barbarian" />
-      </div>
-      <div class="clash-card__level clash-card__level--barbarian">Level 4</div>
-      <div class="clash-card__unit-name">The Barbarian</div>
-      <div class="clash-card__unit-description">
-        The Barbarian is a kilt-clad Scottish warrior with an angry, battle-ready expression, hungry for destruction. He has Killer yellow horseshoe mustache.
-      </div>
+<div class="app">
 
-      <div class="clash-card__unit-stats clash-card__unit-stats--barbarian clearfix">
-        <div class="one-third">
-          <div class="stat">20<sup>S</sup></div>
-          <div class="stat-value">Training</div>
-        </div>
+	<div class="cardList">
+		<button class="cardList__btn btn btn--left">
+			<div class="icon">
+				<svg>
+					<use xlink:href="#arrow-left"></use>
+				</svg>
+			</div>
+		</button>
 
-        <div class="one-third">
-          <div class="stat">16</div>
-          <div class="stat-value">Speed</div>
-        </div>
+		<div class="cards__wrapper">
+			<div class="card current--card">
+				<div class="card__image">
+					<img src="https://aldora.goup.games/layouts/tibiacom/images/global/header/headers/10.jpg" alt="" />
+				</div>
+			</div>
 
-        <div class="one-third no-border">
-          <div class="stat">150</div>
-          <div class="stat-value">Cost</div>
-        </div>
+			<div class="card next--card">
+				<div class="card__image">
+					<img src="https://images2.alphacoders.com/740/740967.jpg" alt="" />
+				</div>
+			</div>
 
-      </div>
+			<div class="card previous--card">
+				<div class="card__image">
+					<img src="https://i.ibb.co/sRDf3yR/ragnarok-x-next-generation-hd-wallpaper-1920x1080-uhdpaper-com-30-0-b.jpg" alt="" />
+				</div>
+			</div>
+		</div>
 
-    </div> <!-- end clash-card barbarian-->
-  </div> <!-- end wrapper -->
-  
-  <div class="wrapper">
-    <div class="clash-card archer">
-      <div class="clash-card__image clash-card__image--archer">
-        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/archer.png" alt="archer" />
-      </div>
-      <div class="clash-card__level clash-card__level--archer">Level 5</div>
-      <div class="clash-card__unit-name">The Archer</div>
-      <div class="clash-card__unit-description">
-        The Archer is a female warrior with sharp eyes. She wears a short, light green dress, a hooded cape, a leather belt and an attached small pouch.
-      </div>
+		<button class="cardList__btn btn btn--right">
+			<div class="icon">
+				<svg>
+					<use xlink:href="#arrow-right"></use>
+				</svg>
+			</div>
+		</button>
+	</div>
 
-      <div class="clash-card__unit-stats clash-card__unit-stats--archer clearfix">
-        <div class="one-third">
-          <div class="stat">25<sup>S</sup></div>
-          <div class="stat-value">Training</div>
-        </div>
+	<div class="infoList">
+		<div class="info__wrapper">
+			<div class="info current--info">
+				<h1 class="text name">Tibia</h1>
+				<h4 class="text location">Aldora Global</h4>
+				<p class="text description">Jogue Grátis</p>
+			</div>
 
-        <div class="one-third">
-          <div class="stat">24</div>
-          <div class="stat-value">Speed</div>
-        </div>
+			<div class="info next--info">
+				<h1 class="text name">Lineage II</h1>
+				<h4 class="text location">Essence</h4>
+				<p class="text description">Jogue Grátis</p>
+			</div>
 
-        <div class="one-third no-border">
-          <div class="stat">300</div>
-          <div class="stat-value">Cost</div>
-        </div>
+			<div class="info previous--info">
+				<h1 class="text name">Ragnarok</h1>
+				<h4 class="text location">Prontera</h4>
+				<p class="text description">Jogue Grátis</p>
+			</div>
+		</div>
+	</div>
 
-      </div>
 
-    </div> <!-- end clash-card archer-->
-  </div> <!-- end wrapper -->
-  
-  <div class="wrapper">
-    <div class="clash-card giant">
-      <div class="clash-card__image clash-card__image--giant">
-        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/giant.png" alt="giant" />
-      </div>
-      <div class="clash-card__level clash-card__level--giant">Level 5</div>
-      <div class="clash-card__unit-name">The Giant</div>
-      <div class="clash-card__unit-description">
-        Slow, steady and powerful, Giants are massive warriors that soak up huge amounts of damage. Show them a turret or cannon and you'll see their fury unleashed!
-      </div>
+	<div class="app__bg">
+		<div class="app__bg__image current--image">
+			<img src="https://aldora.goup.games/layouts/tibiacom/images/global/header/headers/10.jpg" alt="" />
+		</div>
+		<div class="app__bg__image next--image">
+			<img src="https://images2.alphacoders.com/740/740967.jpg" alt="" />
+		</div>
+		<div class="app__bg__image previous--image">
+			<img src="https://i.ibb.co/sRDf3yR/ragnarok-x-next-generation-hd-wallpaper-1920x1080-uhdpaper-com-30-0-b.jpg" alt="" />
+		</div>
+	</div>
+</div>
 
-      <div class="clash-card__unit-stats clash-card__unit-stats--giant clearfix">
-        <div class="one-third">
-          <div class="stat">2<sup>M</sup></div>
-          <div class="stat-value">Training</div>
-        </div>
+<div class="loading__wrapper">
+	<div class="loader--text">Carregando...</div>
+	<div class="loader">
+		<span></span>
+	</div>
+</div>
 
-        <div class="one-third">
-          <div class="stat">12</div>
-          <div class="stat-value">Speed</div>
-        </div>
 
-        <div class="one-third no-border">
-          <div class="stat">2250</div>
-          <div class="stat-value">Cost</div>
-        </div>
+<svg class="icons" style="display: none;">
+	<symbol id="arrow-left" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
+		<polyline points='328 112 184 256 328 400'
+					 style='fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px' />
+	</symbol>
+	<symbol id="arrow-right" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
+		<polyline points='184 112 328 256 184 400'
+					 style='fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px' />
+	</symbol>
+</svg>
 
-      </div>
 
-    </div> <!-- end clash-card giant-->
-  </div> <!-- end wrapper -->
-  
-   <div class="wrapper">
-    <div class="clash-card goblin">
-      <div class="clash-card__image clash-card__image--goblin">
-        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/goblin.png" alt="goblin" />
-      </div>
-      <div class="clash-card__level clash-card__level--goblin">Level 5</div>
-      <div class="clash-card__unit-name">The Goblin</div>
-      <div class="clash-card__unit-description">
-        These pesky little creatures only have eyes for one thing: LOOT! They are faster than a Spring Trap, and their hunger for resources is limitless.
-      </div>
 
-      <div class="clash-card__unit-stats clash-card__unit-stats--goblin clearfix">
-        <div class="one-third">
-          <div class="stat">30<sup>S</sup></div>
-          <div class="stat-value">Training</div>
-        </div>
 
-        <div class="one-third">
-          <div class="stat">32</div>
-          <div class="stat-value">Speed</div>
-        </div>
 
-        <div class="one-third no-border">
-          <div class="stat">100</div>
-          <div class="stat-value">Cost</div>
-        </div>
 
-      </div>
 
-    </div> <!-- end clash-card goblin-->
-  </div> <!-- end wrapper -->
-  
-  <div class="wrapper">
-    <div class="clash-card wizard">
-      <div class="clash-card__image clash-card__image--wizard">
-        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/wizard.png" alt="wizard" />
-      </div>
-      <div class="clash-card__level clash-card__level--wizard">Level 6</div>
-      <div class="clash-card__unit-name">The Wizard</div>
-      <div class="clash-card__unit-description">
-        The Wizard is a terrifying presence on the battlefield. Pair him up with some of his fellows and cast concentrated blasts of destruction on anything, land or sky!
-      </div>
 
-      <div class="clash-card__unit-stats clash-card__unit-stats--wizard clearfix">
-        <div class="one-third">
-          <div class="stat">5<sup>M</sup></div>
-          <div class="stat-value">Training</div>
-        </div>
 
-        <div class="one-third">
-          <div class="stat">16</div>
-          <div class="stat-value">Speed</div>
-        </div>
 
-        <div class="one-third no-border">
-          <div class="stat">4000</div>
-          <div class="stat-value">Cost</div>
-        </div>
 
-      </div>
-
-    </div> <!-- end clash-card wizard-->
-  </div> <!-- end wrapper -->
-  
-</div> <!-- end container -->
+<div class="support">
+	<a href="https://twitter.com/DevLoop01" target="_blank"><i class="fab fa-twitter-square"></i></a>
+	<a href="https://dribbble.com/devloop01" target="_blank"><i class="fab fa-dribbble"></i></a>
+</div>
 <!-- partial -->
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
-<script src='https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js'></script><script  src="./script.js"></script>
+  <script src='https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/gsap.min.js'></script><script  src="./script.js"></script>
 
 </body>
 </html>
